@@ -22,16 +22,6 @@
 		name="keywords"
 		content="H2 Solutions, technology solutions, web development, mobile app development, digital marketing, IT consulting"
 	/>
-	<script type="application/ld+json">
-		{
-		  "@context": "http://schema.org",
-		  "@type": "Organization",
-		  "name": "H2 Solutions",
-		  "url": "https://h2-solutions.lawcloud.page/",
-		  "logo": "https://h2-solutions.lawcloud.page/favicon.svg",
-		  "description": "Your Trusted Partner for Cutting-Edge Technology Solutions"
-		}
-	</script>
 </svelte:head>
 
 <div>
