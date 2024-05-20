@@ -11,6 +11,9 @@
 	import Card from '$lib/components/Card.svelte';
 </script>
 
+<svelte:head>
+	<title>Homepage | H2 Solutions</title>
+</svelte:head>
 <div>
 	<div class="">
 		<div class="">
