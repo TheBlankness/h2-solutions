@@ -12,8 +12,28 @@
 </script>
 
 <svelte:head>
-	<title>Homepage | H2 Solutions</title>
+	<title>H2 Solutions | Your Trusted Partner for Cutting-Edge Technology Solutions</title>
+	<meta
+		name="description"
+		content="Welcome to H2 Solutions - Your Trusted Partner for Cutting-Edge Technology Solutions. Explore our range of services including web development, mobile app development, digital marketing, and IT consulting. Contact us today to elevate your business to new heights."
+	/>
+	<link rel="canonical" href="https://h2-solutions.lawcloud.page/" />
+	<meta
+		name="keywords"
+		content="H2 Solutions, technology solutions, web development, mobile app development, digital marketing, IT consulting"
+	/>
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "Organization",
+		  "name": "H2 Solutions",
+		  "url": "https://h2-solutions.lawcloud.page/",
+		  "logo": "https://h2-solutions.lawcloud.page/favicon.svg",
+		  "description": "Your Trusted Partner for Cutting-Edge Technology Solutions"
+		}
+	</script>
 </svelte:head>
+
 <div>
 	<div class="">
 		<div class="">
