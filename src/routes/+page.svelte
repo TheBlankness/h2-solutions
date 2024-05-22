@@ -31,7 +31,7 @@
 		</div>
 	</div>
 	<div class="container mx-auto">
-		<Stats />
+		
 		<div class="my-10">
 			<HeroCards />
 		</div>
