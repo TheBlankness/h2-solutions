@@ -9,6 +9,7 @@
 	import Countdown from '$lib/components/Countdown.svelte';
 	import Drawer from '$lib/components/Drawer.svelte';
 	import Card from '$lib/components/Card.svelte';
+	import Contact from '$lib/components/Contact.svelte';
 </script>
 
 <svelte:head>
@@ -31,17 +32,16 @@
 		</div>
 	</div>
 	<div class="container mx-auto">
-		
 		<div class="my-10">
 			<HeroCards />
 		</div>
 
-		<!-- <div class="my-10">
-			<Mobile />
-		</div> -->
-
 		<div class="my-10">
-			<Links />
+			<Contact />
 		</div>
+
+		<!-- <div class="my-10">
+			<Links />
+		</div> -->
 	</div>
 </div>

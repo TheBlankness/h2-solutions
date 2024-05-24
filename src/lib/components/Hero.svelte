@@ -22,7 +22,14 @@
 				tailored to fit your needs and solve your business problems.
 			</div>
 			<div class="flex gap-4 justify-center">
-				<button class="btn btn-primary transition-color duration-300 text-lg rounded-sm"
+				<button
+					on:click={() => {
+						window.scrollTo({
+							top: document.body.scrollHeight,
+							behavior: 'smooth'
+						});
+					}}
+					class="btn btn-primary transition-color duration-300 text-lg rounded-sm"
 					>Sign me up</button
 				>
 			</div>
