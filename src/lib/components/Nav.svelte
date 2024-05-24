@@ -2,10 +2,9 @@
 	import { enhance, type SubmitFunction } from '$app/forms';
 	import { page } from '$app/stores';
 	import '$lib/app.css';
-	import Drawer from './Drawer.svelte';
 
-	const submitUpdateTheme: SubmitFunction = ({ action }) => {
-		const theme = action.searchParams.get('theme');
+	const submitUpdateTheme: SubmitFunction = () => {
+		const theme = 'black';
 
 		if (theme) {
 			document.documentElement.setAttribute('data-theme', theme);
@@ -53,18 +52,11 @@
 
 		<div class="">
 			<div class="dropdown dropdown-hover dropdown-end">
-				<label class="btn btn-sm">Contact Us</label>
-				<!-- <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 h-96 overflow-scroll">
-					<form method="POST" use:enhance={submitUpdateTheme}>
-						{#each themes as theme}
-							<li>
-								<button formaction="/?/setTheme&theme={theme}&redirectTo={$page.url.pathname}"
-									>{theme}</button
-								>
-							</li>
-						{/each}
-					</form>
-				</ul> -->
+				<form method="POST" use:enhance={submitUpdateTheme}>
+					<button class="btn btn-sm" formaction="/?/setTheme&redirectTo={$page.url.pathname}"
+						>Contact Us</button
+					>
+				</form>
 			</div>
 		</div>
 	</div>

@@ -3,68 +3,118 @@
 	import Customsvg from '$lib/svgs/customsvg.svelte';
 	import Ideasvg from '$lib/svgs/ideasvg.svelte';
 	import Arrowboostup from '$lib/svgs/Arrowboostup.svelte';
+	import Citysvg from '$lib/svgs/citysvg.svelte';
+	import Networksvg from '$lib/svgs/networksvg.svelte';
 </script>
 
-<div class="hero min-h-full bg-base-200 rounded-lg">
-	<div class="hero-content flex-col lg:flex-row xl:gap-32">
-		<div class="h-80 w-full object-cover rounded-lg flex flex-col justify-center">
-			<Ideasvg />
-		</div>
-		<div class="text-center max-w-lg">
-			<h1 class="text-3xl font-bold">Innovative Digital Solutions</h1>
-			<p class="py-6">
-				At H2 Solutions, we specialize in providing innovative digital solutions that streamline
-				business operations and enhance customer experiences. From affordable digital services to
-				bespoke software, we help your business thrive in the digital age.
-			</p>
+<div class="text-center pt-16 pb-11">
+	<h1 class="text-5xl font-bold text-accent">Our Services</h1>
+	<p class="text-md pt-3">Explore our services that can be the right solution</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 min-h-full bg-base-200 rounded-lg">
+	<div class="card card-compact shadow-xl rounded-lg flex flex-col">
+		<div class="card-body">
+			<div class="w-full object-cover rounded-lg flex flex-row justify-start">
+				<div class="w-32">
+					<Customsvg />
+				</div>
+			</div>
+			<div class="text-center max-w-lg">
+				<h1 class="text-3xl font-bold text-accent text-left">Website Development</h1>
+				<p class="py-6 text-left">
+					Elevate your online presence with our bespoke website development solutions. From
+					captivating designs to seamless functionality, we craft websites tailored to your brand
+					identity and user experience goals.
+				</p>
+			</div>
 		</div>
 	</div>
-</div>
-
-<div class="hero min-h-full bg-base-200 rounded-lg">
-	<div class="hero-content flex-col lg:flex-row-reverse xl:gap-32">
-		<div class="h-80 w-full object-cover rounded-lg flex flex-col justify-center">
-			<Customsvg />
-		</div>
-		<div class="text-center max-w-lg">
-			<h1 class="text-3xl font-bold">Customized Software Solutions</h1>
-			<p class="py-6">
-				H2 Solutions offers tailored software development services to meet the unique needs of your
-				business. Our expert team works closely with you to create software solutions that address
-				specific challenges and drive success.
-			</p>
-		</div>
-	</div>
-</div>
-
-<div class="hero min-h-full bg-base-200 rounded-lg">
-	<div class="hero-content flex-col lg:flex-row xl:gap-32">
-		<div class="h-80 w-full object-cover rounded-lg flex flex-col justify-center">
-			<Boostefi />
-		</div>
-		<div class="text-center max-w-lg">
-			<h1 class="text-3xl font-bold">Boost Your Efficiency</h1>
-			<p class="py-6">
-				Our solutions are designed to automate tedious tasks, boosting your business's efficiency by
-				up to 200%. Let H2 Solutions help you save time and focus on what really matters—growing
-				your business.
-			</p>
+	<div class="card card-compact shadow-xl rounded-lg flex flex-col">
+		<div class="card-body">
+			<div class=" w-full object-cover rounded-lg flex flex-col justify-center">
+				<div class="w-32">
+					<Networksvg />
+				</div>
+			</div>
+			<div class="text-center max-w-lg">
+				<h1 class="text-3xl font-bold text-accent text-left">Network Solutions</h1>
+				<p class="py-6 text-left">
+					Unlock the power of connectivity with our robust network solutions. Whether you're a small
+					business or a large enterprise, we design, implement, and manage networks that ensure
+					reliable communication, seamless collaboration, and efficient data transfer.
+				</p>
+			</div>
 		</div>
 	</div>
-</div>
-
-<div class="hero min-h-full bg-base-200 rounded-lg">
-	<div class="hero-content flex-col lg:flex-row-reverse xl:gap-32">
-		<div class="h-80 w-full object-cover rounded-lg flex flex-col justify-center">
-			<Arrowboostup />
+	<div class="card card-compact shadow-xl rounded-lg flex flex-col">
+		<div class="card-body">
+			<div class=" w-full object-cover rounded-lg flex flex-col justify-center">
+				<div class="w-32">
+					<Boostefi />
+				</div>
+			</div>
+			<div class="text-center max-w-lg">
+				<h1 class="text-3xl font-bold text-accent text-left">Workstation</h1>
+				<p class="py-6 text-left">
+					Optimize productivity and efficiency with our workstation setup and support services. From
+					hardware installation to software configuration, we provide comprehensive solutions to
+					keep your workstations running smoothly, allowing your team to focus on what matters most
+				</p>
+			</div>
 		</div>
-		<div class="text-center max-w-lg">
-			<h1 class="text-3xl font-bold">Expand Your Reach</h1>
-			<p class="py-6">
-				With our expertise in SEO and digital marketing, H2 Solutions ensures your business reaches
-				a wider audience. Experience a threefold increase in page views and connect with more
-				potential customers than ever before.
-			</p>
+	</div>
+	<div class="card card-compact shadow-xl rounded-lg flex flex-col">
+		<div class="card-body">
+			<div class=" w-full object-cover rounded-lg flex flex-col justify-center">
+				<div class="w-32">
+					<Arrowboostup />
+				</div>
+			</div>
+			<div class="text-center max-w-lg">
+				<h1 class="text-3xl font-bold text-accent text-left">Security</h1>
+				<p class="py-6 text-left">
+					Safeguard your premises and assets with our advanced security camera installation
+					services. Our tailored solutions offer comprehensive surveillance coverage, remote
+					monitoring capabilities, and advanced analytics to enhance security and peace of mind.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="card card-compact shadow-xl rounded-lg flex flex-col">
+		<div class="card-body">
+			<div class=" w-full object-cover rounded-lg flex flex-col justify-center">
+				<div class="w-32">
+					<Ideasvg />
+				</div>
+			</div>
+			<div class="text-center max-w-lg">
+				<h1 class="text-3xl font-bold text-accent text-left">Software Development</h1>
+				<p class="py-6 text-left">
+					Streamline your operations with our software deployment and support services. From
+					implementation to ongoing maintenance, we ensure seamless integration and optimal
+					performance of essential software applications, empowering your business to thrive in the
+					digital landscape
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="card card-compact shadow-xl rounded-lg flex flex-col">
+		<div class="card-body">
+			<div class=" w-full object-cover rounded-lg flex flex-col justify-center">
+				<div class="w-32">
+					<Citysvg />
+				</div>
+			</div>
+			<div class="text-center max-w-lg">
+				<h1 class="text-3xl font-bold text-accent text-left">Digital Transformation</h1>
+				<p class="py-6 text-left">
+					Embrace the future with our digital transformation solutions. We analyze your current
+					processes and technologies, then implement innovative strategies to modernize your
+					operations, enhance agility, and drive sustainable growth in the digital age. Let us guide
+					you through the journey of transformation, ensuring your business stays ahead in today's
+					rapidly evolving landscape.
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
