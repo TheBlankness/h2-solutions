@@ -10,6 +10,7 @@
 	import Drawer from '$lib/components/Drawer.svelte';
 	import Card from '$lib/components/Card.svelte';
 	import Contact from '$lib/components/Contact.svelte';
+	import Tagline from '$lib/components/tagline.svelte';
 </script>
 
 <svelte:head>
@@ -31,7 +32,10 @@
 			<Hero />
 		</div>
 	</div>
-	<div class="container mx-auto">
+	<div class="mt-20">
+		<Tagline />
+	</div>
+	<div class="container mx-auto md:px-20">
 		<div class="my-10">
 			<HeroCards />
 		</div>

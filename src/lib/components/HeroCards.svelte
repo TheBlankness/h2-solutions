@@ -22,9 +22,9 @@
 			<div class="text-center max-w-lg">
 				<h1 class="text-3xl font-bold text-accent text-left">Website Development</h1>
 				<p class="py-6 text-left">
-					Elevate your online presence with our bespoke website development solutions. From
-					captivating designs to seamless functionality, we craft websites tailored to your brand
-					identity and user experience goals.
+					Elevate your online presence with our bespoke website design and development solutions.
+					From captivating designs to seamless functionality, we craft websites tailored to your
+					brand identity and user experience goals.
 				</p>
 			</div>
 		</div>
@@ -37,11 +37,11 @@
 				</div>
 			</div>
 			<div class="text-center max-w-lg">
-				<h1 class="text-3xl font-bold text-accent text-left">Network Solutions</h1>
+				<h1 class="text-3xl font-bold text-accent text-left">Networking solutions</h1>
 				<p class="py-6 text-left">
-					Unlock the power of connectivity with our robust network solutions. Whether you're a small
-					business or a large enterprise, we design, implement, and manage networks that ensure
-					reliable communication, seamless collaboration, and efficient data transfer.
+					Unlock the power of connectivity with our robust networking solutions. Whether you're a
+					small business or a large enterprise, we design, implement, and manage networks that
+					ensure reliable communication and seamless collaboration.
 				</p>
 			</div>
 		</div>
@@ -54,11 +54,11 @@
 				</div>
 			</div>
 			<div class="text-center max-w-lg">
-				<h1 class="text-3xl font-bold text-accent text-left">Workstation</h1>
+				<h1 class="text-3xl font-bold text-accent text-left">Workstation Setup</h1>
 				<p class="py-6 text-left">
 					Optimize productivity and efficiency with our workstation setup and support services. From
-					hardware installation to software configuration, we provide comprehensive solutions to
-					keep your workstations running smoothly, allowing your team to focus on what matters most
+					PC installation to software configuration, we provide comprehensive solutions to keep your
+					PCs running smoothly to ensure maximum productivity.
 				</p>
 			</div>
 		</div>
@@ -71,11 +71,13 @@
 				</div>
 			</div>
 			<div class="text-center max-w-lg">
-				<h1 class="text-3xl font-bold text-accent text-left">Security</h1>
+				<h1 class="text-3xl font-bold text-accent text-left">
+					CCTV Installation<span class="text-base-100">__</span>
+				</h1>
 				<p class="py-6 text-left">
-					Safeguard your premises and assets with our advanced security camera installation
-					services. Our tailored solutions offer comprehensive surveillance coverage, remote
-					monitoring capabilities, and advanced analytics to enhance security and peace of mind.
+					Safeguard your premises and assets with our advanced CCTV installation services. Our
+					tailored solutions offer comprehensive surveillance coverage, remote monitoring
+					capabilities, and advanced analytics to enhance security and reliability
 				</p>
 			</div>
 		</div>
@@ -92,8 +94,7 @@
 				<p class="py-6 text-left">
 					Streamline your operations with our software deployment and support services. From
 					implementation to ongoing maintenance, we ensure seamless integration and optimal
-					performance of essential software applications, empowering your business to thrive in the
-					digital landscape
+					performance of essential software applications.
 				</p>
 			</div>
 		</div>
@@ -110,9 +111,7 @@
 				<p class="py-6 text-left">
 					Embrace the future with our digital transformation solutions. We analyze your current
 					processes and technologies, then implement innovative strategies to modernize your
-					operations, enhance agility, and drive sustainable growth in the digital age. Let us guide
-					you through the journey of transformation, ensuring your business stays ahead in today's
-					rapidly evolving landscape.
+					operations, enhance agility, and drive sustainable growth in the digital age.
 				</p>
 			</div>
 		</div>

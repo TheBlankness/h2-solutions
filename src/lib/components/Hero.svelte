@@ -18,8 +18,7 @@
 		<div class="z-60 drop-shadow-lg text-center">
 			<div class="mb-5 text-6xl font-semibold">H2 Solutions</div>
 			<div class="mb-10 max-w-lg text-xl text-justify">
-				Enhance your business with H2 Solutions. We offer affordable and creative digital services
-				tailored to fit your needs and solve your business problems.
+				Harnessing Your Heights, One Byte at a Time.
 			</div>
 			<div class="flex gap-4 justify-center">
 				<button

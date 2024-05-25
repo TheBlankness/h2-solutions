@@ -52,11 +52,15 @@
 
 		<div class="">
 			<div class="dropdown dropdown-hover dropdown-end">
-				<form method="POST" use:enhance={submitUpdateTheme}>
-					<button class="btn btn-sm" formaction="/?/setTheme&redirectTo={$page.url.pathname}"
-						>Contact Us</button
-					>
-				</form>
+				<button
+					class="btn btn-sm"
+					on:click={() => {
+						window.scrollTo({
+							top: document.body.scrollHeight,
+							behavior: 'smooth'
+						});
+					}}>Contact Us</button
+				>
 			</div>
 		</div>
 	</div>

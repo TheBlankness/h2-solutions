@@ -1,6 +1,7 @@
 <script>
 	let name = '';
 	let email = '';
+	let phone = '';
 	let message = '';
 
 	async function handleSubmit() {
@@ -8,7 +9,7 @@
 			'https://discord.com/api/webhooks/1243495041687752785/jY3LWLMGKrdwAeluYsMJ8N_3Y3y93ic0S85EVyMe0Mi5M5HzAm6pp8FT2E1dnbREYp6W';
 
 		const payload = {
-			content: `**New Contact Form Submission**\n\n**Name:** ${name}\n**Email:** ${email}\n**Message:**\n${message}`
+			content: `**<@348100226432630784> New Contact Form Submission**\n\n**Name:** ${name}\n**Email:** ${email}\n**Message:**\n${message}\n**Phone:**\n${phone}`
 		};
 
 		await fetch(webhookUrl, {
@@ -23,6 +24,7 @@
 		name = '';
 		email = '';
 		message = '';
+		phone = '';
 	}
 </script>
 
@@ -34,7 +36,13 @@
 	<div
 		class="flex flex-col justify-center items-start p-6 bg-base-200 rounded-lg shadow-md md:w-1/2"
 	>
-		<div class="flex items-center mb-4">
+		<div
+			class="flex items-center mb-4 cursor-pointer"
+			on:click={() => {
+				const mailtoLink = `mailto:hazimreidzuan@gmail.com`;
+				window.location.href = mailtoLink;
+			}}
+		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="24"
@@ -50,9 +58,14 @@
 					d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
 				/></svg
 			>
-			<p class="ml-4 text-lg">jim99hazim@gmail.com</p>
+			<p class="ml-4 text-lg break-all">hazimreidzuan@gmail.com</p>
 		</div>
-		<div class="flex items-center">
+		<div
+			class="flex items-center cursor-pointer"
+			on:click={() => {
+				window.open('https://wa.me/60129182160', '_blank');
+			}}
+		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="24"
@@ -79,7 +92,11 @@
 			</div>
 			<div>
 				<label class="block text-sm font-medium text-gray-700">Email</label>
-				<input type="text" bind:value={email} class="input input-bordered w-full" required />
+				<input type="text" bind:value={email} class="input input-bordered w-full" />
+			</div>
+			<div>
+				<label class="block text-sm font-medium text-gray-700">Phone</label>
+				<input type="text" bind:value={phone} class="input input-bordered w-full" />
 			</div>
 			<div>
 				<label class="block text-sm font-medium text-gray-700">Message</label>
