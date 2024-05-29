@@ -21,15 +21,8 @@
 				Harnessing Your Heights, One Byte at a Time.
 			</div>
 			<div class="flex gap-4 justify-center">
-				<button
-					on:click={() => {
-						window.scrollTo({
-							top: document.body.scrollHeight,
-							behavior: 'smooth'
-						});
-					}}
-					class="btn btn-primary transition-color duration-300 text-lg rounded-sm"
-					>Sign me up</button
+				<a href="#contact" class="btn btn-primary transition-color duration-300 text-lg rounded-sm"
+					>Sign me up</a
 				>
 			</div>
 		</div>

@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { enhance, type SubmitFunction } from '$app/forms';
-	import { page } from '$app/stores';
 	import '$lib/app.css';
 
 	const submitUpdateTheme: SubmitFunction = () => {
@@ -52,15 +50,7 @@
 
 		<div class="">
 			<div class="dropdown dropdown-hover dropdown-end">
-				<button
-					class="btn btn-sm"
-					on:click={() => {
-						window.scrollTo({
-							top: document.body.scrollHeight,
-							behavior: 'smooth'
-						});
-					}}>Contact Us</button
-				>
+				<a class="btn btn-sm" href="#contact">Contact Us</a>
 			</div>
 		</div>
 	</div>
