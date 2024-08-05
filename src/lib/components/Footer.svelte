@@ -31,7 +31,7 @@
 					/>
 				</svg>
 			</div>
-			<p class="font-bold">H2 Solutions. <br />Hosted on The LawCloud Network</p>
+			<p class="font-bold">H2 Solutions. <br />Hosted on The JomCloud Network</p>
 			<p>Copyright © 2024 - All right reserved</p>
 		</div>
 		<!-- Social Media Icons (if needed) -->
